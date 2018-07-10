@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://beauty-landshut.de/global/header/</loc>
+    <lastmod>2018-07-10T20:19:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://beauty-landshut.de/</loc>
+    <lastmod>2018-07-06T20:19:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://beauty-landshut.de/datenschutz/</loc>
+    <lastmod>2018-05-25T09:47:15+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://beauty-landshut.de/haftungsausschluss/</loc>
+    <lastmod>2018-05-25T09:46:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://beauty-landshut.de/impressum/</loc>
+    <lastmod>2018-05-25T09:46:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://beauty-landshut.de/global/footer/</loc>
+    <lastmod>2018-05-24T16:23:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://beauty-landshut.de/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://beauty-landshut.de/global/</loc>
+    <lastmod>2018-07-10T20:19:54+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://beauty-landshut.de/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
