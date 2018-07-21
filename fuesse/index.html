@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de-de">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Beauty Landshut  | Füße</title>
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <link rel="stylesheet" href="https://beauty-landshut.de/lib/semantic.min.css">
+  <link rel="stylesheet" href="https://beauty-landshut.de/styles.css">
+  <link rel="shortcut icon" href="https://beauty-landshut.de/favicon.png" type="image/x-icon"> <meta name="description" content="">
+<meta name="og:title" content="Füße">
+  <script type="text/javascript" src="https://beauty-landshut.de/lib/jquery.min.js"></script>
+</head>
+
+<body>
+   
+<header style="background:url(https://res.cloudinary.com/b-coding/image/fetch/c_scale,f_auto,w_2500/https://beauty-landshut.github.io/uploads/Fuesse/fuesse_head.jpg) center center; background-size:cover">
+  <a href="/" id="logolink">
+    <img class="logo" src="https://res.cloudinary.com/b-coding/image/fetch/c_scale,h_200,f_auto/https://beauty-landshut.github.io/uploads/Home_kontakt_global/logo.jpg" />
+  </a>
+  <div id="headermenu">
+    
+    <a class="headermenuitem "
+      href="/team/" title="Team">Team</a>
+    
+    <a class="headermenuitem "
+      href="/beauty/" title="Beauty">Beauty</a>
+    
+    <a class="headermenuitem "
+      href="/naegel/" title="Nägel">Nägel</a>
+    
+    <a class="headermenuitem "
+      href="/wimpernverlaengerung/" title="Wimpernverlängerung">Wimpernverlängerung</a>
+    
+    <a class="headermenuitem "
+      href="/wimpernlifting/" title="Wimpernlifting">Wimpernlifting</a>
+    
+    <a class="headermenuitem "
+      href="/sugaring/" title="Sugaring">Sugaring</a>
+    
+    <a class="headermenuitem  active"
+      href="/fuesse/" title="Füße">Füße</a>
+    
+    <a class="headermenuitem "
+      href="http://www.hair-beauty-landshut.de" title="">Hairs</a>
+    
+    <a class="headermenuitem "
+      href="/preise/" title="Preise">Preise</a>
+    
+    <a class="headermenuitem "
+      href="/ueber-uns/" title="Über uns">Über uns</a>
+    
+    <a class="headermenuitem "
+      href="/kontakt/" title="Kontakt">Kontakt</a>
+    
+  </div>
+</header>
+  <main role="main">
+    
+<div class="subpage">
+  <div class="subheader">
+  <h1>Füße</h1>
+  <h2>kosmetische Fußpflege</h2>
+</div>
+  <div class="ui container grid stackable">
+    <div class="six wide column">
+      <img class="ui fluid image" src="https://res.cloudinary.com/b-coding/image/fetch/c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,w_600/https://beauty-landshut.github.io/uploads/2018/07/21/fuesse.jpg"
+      />
+    </div>
+    
+    <div class="ten wide column">
+      <p><strong>Fußpflege</strong></p><p>schöne Füße sind nicht nur im Sommer ein MUSS sondern das ganze Jahr über. Jeden Tag leisten sie Schwerstarbeit und gehören zu den meist beanspruchten Körperteilen.</p><p>Während Ihrer Behandlung die speziell auf Sie zugeschnitten wird wollen wir sie rundum verwöhnen. Gerne auch mit einer unserer entspannenden Massagen.</p><p>Wir kümmern uns nicht nur um Ihre strapazierten Füße, sondern auch um die optische Verschönerung ihrer Zehennägel mit Farbgelen oder Lack - <strong>Wellness fängt bei den Füßen an. </strong><br>Unsere ausgebildete Fußpflegerin entfernt Hühneraugen, Druckstellen und unerwünschte Hornhaut. Vereinbaren Sie einen Termin und überzeugen Sie sich selbst. Wir würden uns freuen Sie bald in unserem Salon begrüßen zu dürfen.</p><p><strong>Spezialbehandlungen bei der kosmetischen Fußpflege:</strong></p><ul><li><p>Rhagaden / Schrundenbehandlung</p></li><li><p>Hühnerauge(n)</p></li><li><p>Schwiele(n)</p></li><li><p>Nagelprothetik (bei Teilverlust der Nagelplatte)</p></li><li><p>Tamponage bei eingewachsenen Nägeln</p></li></ul>
+    </div>
+     
+  </div>
+   
+</div>
+
+  </main>
+  
+<div class="clearfix"></div>
+<footer class="">
+  <div class="footermenu">
+     
+    <a href="/datenschutz/" title="Datenschutz">Datenschutz</a>
+    
+    <a href="/impressum/" title="Impressum">Impressum</a>
+    
+    <a href="/haftungsausschluss/" title="Haftungsausschluss">Haftungsausschluss</a>
+    
+  </div>
+</footer>
+
+  <script type="text/javascript" src="https://beauty-landshut.de/lib/semantic.min.js"></script>
+  <script type="text/javascript" src="https://beauty-landshut.de/lib/slippry.min.js"></script>
+  <link rel="stylesheet" href="https://beauty-landshut.de/lib/slippry.min.css">
+  <script type="text/javascript">
+    $(function () {
+      $('.imggal img').click(function (el) {
+        console.log(el.currentTarget.dataset.modal);
+        var mid = el.currentTarget.dataset.modal;
+        $('#modal_' + mid).modal({ inverted: true }).modal('show');
+        $('#gal_' + mid).slippry({
+          
+          slippryWrapper: '<div class="sy-box portfolio-slider" />', 
+
+          
+          adaptiveHeight: false, 
+          start: 'random', 
+          loop: true, 
+          captionsSrc: 'li',
+          captions: 'custom', 
+          captionsEl: '.external-captions',
+
+          
+          transition: 'horizontal', 
+          easing: 'linear', 
+          continuous: false,
+
+          
+          auto: true,
+          pager: false,
+        });
+      });
+    });
+    $('.blbutton').click(function (el) {
+      $('#' + el.currentTarget.dataset.target).hide();
+    });
+  </script>
+</body>
+
+</html>

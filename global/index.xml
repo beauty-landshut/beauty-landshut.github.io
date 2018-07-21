@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Globals on Beauty Landshut</title>
+    <link>https://beauty-landshut.de/global/</link>
+    <description>Recent content in Globals on Beauty Landshut</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Tue, 10 Jul 2018 18:19:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://beauty-landshut.de/global/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Header</title>
+      <link>https://beauty-landshut.de/global/header/</link>
+      <pubDate>Tue, 10 Jul 2018 18:19:54 +0000</pubDate>
+      
+      <guid>https://beauty-landshut.de/global/header/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Footer</title>
+      <link>https://beauty-landshut.de/global/footer/</link>
+      <pubDate>Fri, 25 May 2018 16:23:18 +0200</pubDate>
+      
+      <guid>https://beauty-landshut.de/global/footer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
