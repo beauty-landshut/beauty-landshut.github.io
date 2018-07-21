@@ -17,7 +17,7 @@
 
 <body>
    
-<header style="background:url(https://res.cloudinary.com/b-coding/image/fetch/c_scale,f_auto,w_2500/https://beauty-landshut.github.io) center center; background-size:cover">
+<header style="background:url(https://res.cloudinary.com/b-coding/image/fetch/c_scale,f_auto,w_2500/https://beauty-landshut.github.io/uploads/2018/07/13/Head_team_about_contact_Preise.jpg) center center; background-size:cover">
   <a href="/" id="logolink">
     <img class="logo" src="https://res.cloudinary.com/b-coding/image/fetch/c_scale,h_200,f_auto/https://beauty-landshut.github.io/uploads/Home_kontakt_global/logo.jpg" />
   </a>
@@ -60,31 +60,38 @@
 </header>
   <main role="main">
     
-<div class="ui container standard">
+<div class="subpage">
+  <div class="subheader">
   <h1>Impressum</h1>
-  <div class="content">
-    <p>Nails &amp; Beauty
-Inhaberin von Nägel und Fußpflege Studio
-Vanessa Lechner
-Altdorferstrasse 1
+  <h2></h2>
+</div>
+  <div class="ui container standard">
+    <h1>Impressum</h1>
+    <div class="content">
+      <p><strong>Nails &amp; Beauty</strong></p>
+
+<p>Inhaberin von Nägel und Fußpflege Studio<br/>
+Vanessa Lechner<br/>
+Altdorferstrasse 1<br/>
 84032 Landshut</p>
 
 <p>Tel: 0 871 / 96 61 09 11</p>
 
-<p>Mail  lechner.vanessa@yahoo.de
+<p>Mail  lechner.vanessa@yahoo.de<br/>
 Web beauty-landshut.de</p>
 
-<p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
+<p>Umsatzsteuer-Identifikationsnummer gemäß §27 a <br/>Umsatzsteuergesetz:
 DE 229 956 199</p>
 
 <p>Aufsichtsbehörde: Landratsamt Landshut</p>
 
-<p>Inhaberin und inhaltlich verwantwortlich:
+<p>Inhaberin und inhaltlich verwantwortlich:<br/>
 Vanessa Lechner</p>
 
 <p>Design / Konzept<br />
 <a href="https://elvirabeck-design.de">elvira.beck | design</a></p>
 
+    </div>
   </div>
 </div>
 
@@ -134,6 +141,9 @@ Vanessa Lechner</p>
           pager: false,
         });
       });
+    });
+    $('.blbutton').click(function (el) {
+      $('#' + el.currentTarget.dataset.target).hide();
     });
   </script>
 </body>

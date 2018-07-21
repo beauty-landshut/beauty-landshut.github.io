@@ -70,7 +70,7 @@
     <div class="content">
       <p>Sollten Sie Ihren vereinbarten Termin nicht wahrnehmen können, bitten wir Sie, uns den Termin bis spätestens 24 Stunden vorher abzusagen. Bei Absagen unter 24h behalten wir uns vor Ihnen den Betrag in vollem Umfang in Rechnung zu stellen. Verspätungen: Bei verspäteter Ankunft kann sich die Behandlungszeit evtl. verkürzen, um den planmäßigen Beginn der darauf folgenden Behandlung zu gewährleisten.</p>
     </div>
-    <div class="blbutton">
+    <div class="blbutton" data-target="termin">
       <p>Terminbedingung<br><strong>AKZEPTIEREN</strong></p>
     </div>
   </div>
@@ -122,6 +122,9 @@
           pager: false,
         });
       });
+    });
+    $('.blbutton').click(function (el) {
+      $('#' + el.currentTarget.dataset.target).hide();
     });
   </script>
 </body>

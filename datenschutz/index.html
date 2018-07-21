@@ -17,7 +17,7 @@
 
 <body>
    
-<header style="background:url(https://res.cloudinary.com/b-coding/image/fetch/c_scale,f_auto,w_2500/https://beauty-landshut.github.io) center center; background-size:cover">
+<header style="background:url(https://res.cloudinary.com/b-coding/image/fetch/c_scale,f_auto,w_2500/https://beauty-landshut.github.io/uploads/2018/07/13/Head_team_about_contact_Preise.jpg) center center; background-size:cover">
   <a href="/" id="logolink">
     <img class="logo" src="https://res.cloudinary.com/b-coding/image/fetch/c_scale,h_200,f_auto/https://beauty-landshut.github.io/uploads/Home_kontakt_global/logo.jpg" />
   </a>
@@ -60,10 +60,15 @@
 </header>
   <main role="main">
     
-<div class="ui container standard">
+<div class="subpage">
+  <div class="subheader">
   <h1>Datenschutz</h1>
-  <div class="content">
-    
+  <h2></h2>
+</div>
+  <div class="ui container standard">
+    <h1>Datenschutz</h1>
+    <div class="content">
+      
 
 <h2 id="datenschutzerklärung">Datenschutzerklärung</h2>
 
@@ -319,6 +324,7 @@ Sofern eine der oben genannten Voraussetzungen gegeben ist und eine betroffene P
 
 <p>Diese Datenschutzerklärung wurde durch den Datenschutzerklärungs-Generator der DGD Deutsche Gesellschaft für Datenschutz GmbH, die als Externer Datenschutzbeauftragter Hamburg tätig ist, in Kooperation mit dem Kölner IT- und Datenschutz Anwalt Christian Solmecke erstellt.</p>
 
+    </div>
   </div>
 </div>
 
@@ -368,6 +374,9 @@ Sofern eine der oben genannten Voraussetzungen gegeben ist und eine betroffene P
           pager: false,
         });
       });
+    });
+    $('.blbutton').click(function (el) {
+      $('#' + el.currentTarget.dataset.target).hide();
     });
   </script>
 </body>

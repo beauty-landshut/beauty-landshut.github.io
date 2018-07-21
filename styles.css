@@ -42,6 +42,7 @@ header #logolink {
 }
 header #headermenu {
   margin-top: 1rem;
+  padding-left: 2rem;
 }
 header #headermenu .headermenuitem {
   color: white;
@@ -134,9 +135,56 @@ footer a:last-child {
   text-align: center;
   border: 1px solid #413729;
   background: rgba(114, 95, 76, 0.7);
+  cursor: pointer;
 }
 .subpage {
   padding: 200px 0 4rem 0;
+}
+.subpage.kontakt .column.r em {
+  color: red;
+}
+.subpage.kontakt #karte {
+  margin: 2rem 0 -2.5rem 0;
+}
+.subpage.preise li {
+  list-style-type: none;
+}
+.subpage.preise li.kat {
+  border-top: 1px solid #413729;
+}
+.subpage.preise li.kat h2 {
+  margin-top: 2rem;
+}
+.subpage.preise li.kat:first-child {
+  border: none;
+}
+.subpage.preise li.kat:first-child h2 {
+  margin-top: 0;
+}
+.subpage.preise li.preis {
+  display: flex;
+  justify-content: space-between;
+}
+.subpage.preise li.preis .p {
+  text-align: right;
+}
+.subpage.preise ul {
+  padding: 0;
+  margin: 0;
+}
+.subpage.preise ul.kats {
+  columns: 2;
+  column-gap: 8rem;
+}
+.subpage.preise ul.preise {
+  margin-bottom: 2rem;
+}
+.subpage.preise h2 {
+  text-align: center;
+  font-weight: 200;
+}
+.subpage.preise h3 {
+  font-size: 1.2rem;
 }
 .subpage.about h4 {
   text-align: center;

@@ -180,6 +180,9 @@
         });
       });
     });
+    $('.blbutton').click(function (el) {
+      $('#' + el.currentTarget.dataset.target).hide();
+    });
   </script>
 </body>
 

@@ -44,7 +44,8 @@ header{
     margin:0;
   }
   #headermenu{
-    margin-top:1rem;  
+    margin-top:1rem;
+    padding-left:2rem;
     .headermenuitem{
       color:white;
       padding:0 0.5rem;
@@ -142,9 +143,62 @@ footer{
   text-align:center;
   border:1px solid @brown_dark;
   background:@brown_middle_transp;
+  cursor:pointer;
 }
 .subpage{
   padding:200px 0 4rem 0;
+  &.kontakt{
+    .column.r{
+      em{
+        color:red;
+      }
+    }
+    #karte{
+      margin:2rem 0 -2.5rem 0;
+    }
+  }
+  &.preise{
+    li{
+      list-style-type:none;
+      &.kat{
+        border-top:1px solid @brown_dark;
+        h2{
+          margin-top:2rem;
+        }
+        &:first-child{
+          border:none;
+          h2{
+            margin-top:0;
+          }
+        }
+      }
+      &.preis{
+        display:flex;
+        justify-content: space-between;
+        .p{
+          text-align:right;
+        }
+      }
+    }
+    ul{
+      padding:0;
+      margin:0;
+      &.kats{
+        columns: 2;
+        column-gap: 8rem;
+      }
+      &.preise{
+        margin-bottom:2rem;
+      }
+    }
+    h2{
+      text-align: center;
+      font-weight: 200;
+    }
+    h3{
+      font-size:1.2rem;
+    }
+  }
   &.about{
     h4{
       text-align: center;

@@ -60,10 +60,16 @@
 </header>
   <main role="main">
     
-<div class="ui container standard">
-  <h1>Footer</h1>
-  <div class="content">
-    
+<div class="subpage">
+  <div class="subheader">
+  <h1></h1>
+  <h2></h2>
+</div>
+  <div class="ui container standard">
+    <h1>Footer</h1>
+    <div class="content">
+      
+    </div>
   </div>
 </div>
 
@@ -113,6 +119,9 @@
           pager: false,
         });
       });
+    });
+    $('.blbutton').click(function (el) {
+      $('#' + el.currentTarget.dataset.target).hide();
     });
   </script>
 </body>
