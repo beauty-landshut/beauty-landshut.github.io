@@ -138,6 +138,43 @@ footer a:last-child {
 .subpage {
   padding: 200px 0 4rem 0;
 }
+.subpage.about h4 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+.subpage.about .imgw {
+  border: 1px solid #413729;
+  padding: 1rem;
+}
+.subpage.about .galslogan {
+  background: #413729;
+  font-size: 2rem;
+  color: white!important;
+  padding: 2rem 4rem;
+}
+.subpage.about .galslogan p {
+  color: white!important;
+  font-weight: 200;
+}
+.subpage.about .rightcontent {
+  columns: 2;
+  column-gap: 4em;
+}
+.subpage.about .rightcontent ul {
+  padding: 0;
+}
+.subpage.about .rightcontent ul li {
+  margin-left: 1em;
+}
+.subpage.about .leftimgblock .smallimages {
+  position: relative;
+  padding: 1.25rem 0.75rem;
+}
+.subpage.about .leftimgblock .smallimages .column {
+  padding: 0.25rem;
+}
 .blockImageContent {
   padding: 2rem 0;
 }
