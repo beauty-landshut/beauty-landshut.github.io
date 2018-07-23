@@ -58,6 +58,45 @@
     
   </div>
 </header>
+<button class="ui basic button" id="menutoggle">
+  <i class="big fitted icon bars"></i>
+</button>
+<div id="headermenumobile">
+  
+  <a class="headermenuitem "
+    href="/team/" title="Team">Team</a>
+  
+  <a class="headermenuitem "
+    href="/beauty/" title="Beauty">Beauty</a>
+  
+  <a class="headermenuitem "
+    href="/naegel/" title="Nägel">Nägel</a>
+  
+  <a class="headermenuitem "
+    href="/wimpernverlaengerung/" title="Wimpernverlängerung">Wimpernverlängerung</a>
+  
+  <a class="headermenuitem "
+    href="/wimpernlifting/" title="Wimpernlifting">Wimpernlifting</a>
+  
+  <a class="headermenuitem "
+    href="/sugaring/" title="Sugaring">Sugaring</a>
+  
+  <a class="headermenuitem "
+    href="/fuesse/" title="Füße">Füße</a>
+  
+  <a class="headermenuitem "
+    href="http://www.hair-beauty-landshut.de" title="">Hairs</a>
+  
+  <a class="headermenuitem "
+    href="/preise/" title="Preise">Preise</a>
+  
+  <a class="headermenuitem  active"
+    href="/ueber-uns/" title="Über uns">Über uns</a>
+  
+  <a class="headermenuitem "
+    href="/kontakt/" title="Kontakt">Kontakt</a>
+  
+</div>
   <main role="main">
     
 <div class="subpage about">
@@ -101,7 +140,7 @@
   <div class="ui container">
     <h4><p>Wir arbeiten nur mit renomierten Firmen</p></h4>
   </div>
-  <div class="ui container four column grid doubling stackable logos">
+  <div class="ui container four column grid doubling logos">
     
     <div class="column">
       <div class="imgw">
@@ -175,25 +214,25 @@
   <script type="text/javascript">
     $(function () {
       $('.imggal img').click(function (el) {
-        console.log(el.currentTarget.dataset.modal);
         var mid = el.currentTarget.dataset.modal;
+        var idx = el.currentTarget.dataset.idx;
         $('#modal_' + mid).modal({ inverted: true }).modal('show');
         $('#gal_' + mid).slippry({
           
           slippryWrapper: '<div class="sy-box portfolio-slider" />', 
 
           
-          adaptiveHeight: false, 
-          start: 'random', 
+          adaptiveHeight: true, 
+          start: idx + 1, 
           loop: true, 
           captionsSrc: 'li',
           captions: 'custom', 
           captionsEl: '.external-captions',
 
           
-          transition: 'horizontal', 
+          transition: 'fade', 
           easing: 'linear', 
-          continuous: false,
+          continuous: true,
 
           
           auto: true,
@@ -203,6 +242,17 @@
     });
     $('.blbutton').click(function (el) {
       $('#' + el.currentTarget.dataset.target).hide();
+    });
+    $('#menutoggle').click(function (el) {
+      console.log('----', el);
+      var t = $('#headermenumobile');
+      if (t.hasClass('vis')) {
+        t.removeClass('vis');
+        $('#menutoggle i').removeClass('times').addClass('bars');
+      } else {
+        t.addClass('vis');
+        $('#menutoggle i').addClass('times').removeClass('bars');
+      }
     });
   </script>
 </body>

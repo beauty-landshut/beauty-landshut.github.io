@@ -1,4 +1,4 @@
-@brown_dark:rgb(65,55,41);
+@brown_dark:#413729;
 @brown_middle:rgb(114,95,76);
 @brown_middle_transp:rgba(114,95,76,0.7);
 @brown_light: rgb(178,163,134);
@@ -56,6 +56,9 @@ header{
     }
   }
 }
+#headermenumobile{
+  display:none;
+}
 footer{
   position:fixed;
   bottom:0;
@@ -103,6 +106,131 @@ footer{
   }
   margin-bottom:2rem; 
 }
+#menutoggle{
+  display:none;
+}
+// mobile
+@media (max-width: 767px){
+  #menutoggle{
+    box-shadow:none;
+    display:block;
+    background:transparent!important;
+    position:fixed;
+    z-index:1001;
+    right:1rem;
+    top:1rem;
+    i{
+      color:white!important;
+      opacity:1;
+    }
+  }
+  #headermenumobile{
+    background:@brown_middle;
+    padding:1rem;
+    display:flex!important;
+    flex-wrap:wrap;
+    flex-flow: column;
+    z-index:9999;
+    width:100vw;
+    .headermenuitem{
+      color:white;
+      padding:0 0.26rem;
+      white-space: nowrap;
+      border:none;
+      line-height:2rem;
+      border-bottom:1px solid rgba(255,255,255,0.2);
+      &:last-child{
+        border:none;
+      }
+    }
+    position:fixed;
+    top:85px;
+    height:0;
+    overflow:hidden;
+    opacity:0;
+    &.vis{
+      height:auto;
+      opacity:1;
+      -webkit-transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in-out;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in-out;
+    }
+  }
+  header{
+    display:flex;
+    justify-content: space-between;
+    width:100vw;
+    background:transparent;
+    position:fixed;
+    top:0;
+    left:0;
+    padding:0 ;
+    height:85px;
+    z-index:999;
+    img{
+      padding:0;
+      margin:0;
+      height:85px;
+    }
+    #logolink{
+      padding:0;
+      margin:0;
+    }
+    #headermenu{
+      display:none;
+    }
+  }
+  footer{
+    position:fixed;
+    bottom:0;
+    padding:0 0.5rem;
+    width:100vw;
+    left:0;
+    z-index:999;
+    background:white;
+    border-top:1px solid @brown_light;
+    &.home{
+      border:none!important;
+      background:transparent!important;
+    }
+    a{
+      color:@brown_dark!important;
+      font-size:0.9rem;
+      line-height:2rem!important;
+      padding:0 0.5rem;
+        border-right:1px solid @brown_dark;
+        &:last-child{
+          border:none;
+        }
+    }
+    .footermenu{
+      
+    }
+  }
+  .subheader{
+    background:@brown_light;
+    text-align:center;
+    padding:0.5rem 0.5rem;
+    h1{
+      color:@brown_dark;
+      margin:0;
+      padding:0;
+      font-weight:400;
+      font-size:2rem;
+    }
+    h2{
+      color:@brown_dark;
+      margin:0;
+      padding:0;
+      font-size:1.2rem;
+      font-weight:200;
+    }
+    margin-bottom:2rem; 
+  }
+}
 #home{
   width:100vw;
   min-height:100vh;
@@ -118,6 +246,13 @@ footer{
       font-size:5rem;
       font-weight:normal;
       font-weight:200;
+      @media (max-width: 767px){
+        text-shadow:  1px  1px  @brown_light,
+                  1px -1px  @brown_light,
+                 -1px  1px  @brown_light,
+                 -1px -1px  @brown_light;
+
+      }
     }
     h2{
       font-weight:200;
@@ -126,6 +261,7 @@ footer{
   #termin{
     position:fixed;
     bottom:2rem;
+    width:100vw;
     background:@brown_middle_transp;
     color:white;
     padding:2rem 4rem;
@@ -134,6 +270,9 @@ footer{
     .content{
       padding-right:4rem;
       font-size:0.9rem;
+    }
+    @media (max-width: 767px){
+      display:none;
     }
   }
 }
@@ -147,6 +286,9 @@ footer{
 }
 .subpage{
   padding:200px 0 4rem 0;
+  @media (max-width: 767px){
+    padding:85px 0 4rem 0;
+  }
   &.kontakt{
     .column.r{
       em{
@@ -155,6 +297,7 @@ footer{
     }
     #karte{
       margin:2rem 0 -2.5rem 0;
+      padding-top:2rem;
     }
   }
   &.preise{
@@ -186,6 +329,9 @@ footer{
       &.kats{
         columns: 2;
         column-gap: 8rem;
+        @media (max-width: 767px){
+          columns: 1;
+        }
       }
       &.preise{
         margin-bottom:2rem;
@@ -224,6 +370,9 @@ footer{
     .rightcontent{
       columns: 2;
       column-gap: 4em;
+      @media (max-width: 767px){
+        columns: 1;
+      }
       ul{
         padding:0;
         li{
@@ -241,6 +390,9 @@ footer{
       }
     }
   }
+}
+.sy-slide{
+  height:500px;
 }
 .blockImageContent{
   padding:2rem 0; 
