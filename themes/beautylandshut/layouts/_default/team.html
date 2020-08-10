@@ -1,0 +1,34 @@
+{{ define "main" }}
+<div class="subpage about">
+  {{ partial "headerSub.html" . }}
+  <div class="teaseroben ui container">
+    <div class="three column stackable ui grid">
+      {{ range .Params.mitarbeiter }} {{ partial "blockMitarbeiter.html" . }} {{end}}
+    </div>
+  </div>
+  <div class="galslogan">
+    {{.Params.slogan | safeHTML}}
+  </div>
+  <div class="ui container eight column grid imggal doubling ">
+    {{ range $x,$img := .Params.zertifikate }}
+    <div class="column">
+      <img data-modal="imgg" class="bimg ui image fluid" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_200" )}}"
+      />
+    </div>
+    {{end}}
+  </div>
+</div>
+<div class="ui modal" id="modal_imgg">
+  <div class="content">
+    <ul id="gal_imgg" class="imggalslider sy-slides-crop">
+      {{ range $x,$img := .Params.zertifikate }}
+      <li>
+        <a href="#slide_imgg_{{$x}}">
+          <img src="{{partial "imgUrl" (dict "img" $img "params" "f_auto,c_scale,h_700" )}} " />
+        </a>
+      </li>
+      {{end}}
+    </ul>
+  </div>
+</div>
+{{end}}

@@ -1,0 +1,26 @@
+---
+label: Beauty
+hide_body: true
+is_partial: false
+fields:
+- type: include
+  name: header
+  label: Header
+  template: header-sub
+- type: blocks
+  name: contentblocks
+  label: Content-Blöcke
+  template_types:
+  - block-bild-text
+- type: textarea
+  name: footertext
+  label: Footer-Text
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: text
+  name: seo_description
+  label: SEO Description
+pages:
+- content/beauty.md

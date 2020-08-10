@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="subpage kontakt">
+  {{ partial "headerSub.html" . }}
+  <div class="teaseroben ui container">
+    <div class="two column stackable ui grid">
+      <div class="column">{{.Params.content_links | safeHTML}}</div>
+      <div class="column r">{{.Params.content_rechts | safeHTML}}</div>
+    </div>
+  </div>
+  <div id="karte" class="ui container">
+    <img class="ui image fluid" src="{{partial "imgUrl" (dict "img" .Params.karte "params" "f_auto" )}} " />
+  </div>
+</div>
+{{end}}

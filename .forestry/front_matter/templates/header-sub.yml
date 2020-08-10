@@ -1,0 +1,14 @@
+---
+label: Header Sub
+hide_body: false
+is_partial: true
+fields:
+- type: file
+  name: bild_header
+  label: Bild Header
+- type: text
+  name: titel_header
+  label: Titel Header
+- type: text
+  name: untertitel_header
+  label: Untertitel Header

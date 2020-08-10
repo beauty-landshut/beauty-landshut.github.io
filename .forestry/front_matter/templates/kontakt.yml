@@ -1,0 +1,31 @@
+---
+label: Kontakt
+hide_body: true
+is_partial: false
+fields:
+- type: include
+  name: header
+  label: Header
+  template: header-sub
+- type: textarea
+  name: content_links
+  label: Content links
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: textarea
+  name: content_rechts
+  label: Content rechts
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: karte
+  label: Karte
+- type: text
+  name: seo_description
+  label: SEO Description
+pages:
+- content/kontakt.md

@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="subpage">
+  {{ partial "headerSub.html" . }}
+  <div class="ui container grid stackable">
+    <div class="six wide column">
+      <img class="ui fluid image" src="{{partial "imgUrl" (dict "img" .Params.bild_links "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,w_600" )}}"
+      />
+    </div>
+    {{with .Params.text_rechts}}
+    <div class="ten wide column">
+      {{. | safeHTML}}
+    </div>
+    {{end}} {{with .Params.content}}
+    <div class="sixteen wide column">
+      {{. | safeHTML}}
+    </div>
+    {{end}}
+  </div>
+  {{with .Params.slogan}}
+  <div class="galslogan">
+    {{. | safeHTML}}
+  </div>
+  {{end}} {{with .Params.bilder}} {{ partial "imgGal.html" . }} {{end}}
+</div>
+{{end}}

@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="subpage about">
+  {{ partial "headerSub.html" . }}
+  <div class="teaseroben ui container">
+    <div class="doubling stackable ui grid">
+      <div class="six wide column leftimgblock">
+        {{ range $x,$img := .Params.bilder_links }} {{if eq $x 0}}
+        <img class="bimg ui image fluid" src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,w_800,f_auto/c_fill,h_300,w_400" )}}"
+        /> {{end}}{{end}}
+        <div class="smallimages ui three column stackable grid">
+          {{ range $x,$img := .Params.bilder_links }} {{if gt $x 0}}
+          <div class="column">
+            <img class="simg ui image fluid" src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,w_800,f_auto/c_fill,h_150,w_200" )}}"
+            />
+          </div>
+          {{end}}{{end}}
+        </div>
+      </div>
+      <div class="ten wide column rightcontent">
+        {{.Params.content_rechts | safeHTML}}
+      </div>
+    </div>
+  </div>
+  <div class="galslogan">
+    {{.Params.slogan | safeHTML}}
+  </div>
+  <div class="ui container">
+    <h4>{{.Params.titel_logos | safeHTML}}</h4>
+  </div>
+  <div class="ui container four column grid doubling logos">
+    {{ range $x,$img := .Params.logos }}
+    <div class="column">
+      <div class="imgw">
+        <img class="ui image fluid" src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,w_400,f_auto" )}}" />
+      </div>
+    </div>
+    {{end}}
+  </div>
+</div>
+{{end}}

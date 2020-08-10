@@ -1,0 +1,41 @@
+---
+label: Naegel
+hide_body: true
+is_partial: false
+fields:
+- type: include
+  name: header
+  label: Header
+  template: header-sub
+- type: field_group_list
+  name: teaser_oben
+  label: Teaser oben
+  fields:
+  - type: file
+    name: bild
+    label: Bild
+  - type: text
+    name: titel
+    label: Titel
+  - type: textarea
+    name: text
+    label: Text
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+- type: textarea
+  name: slogan
+  label: Slogan
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: image_gallery
+  name: bilder
+  label: Bilder
+- type: text
+  name: seo_description
+  label: SEO Description
+pages:
+- content/naegel.md

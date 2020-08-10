@@ -1,0 +1,8 @@
+baseURL = "https://beauty-landshut.de"
+languageCode = "de-de"
+theme = "beautylandshut"
+title = "Beauty Landshut"
+[[menu.main]]
+name = "Hairs"
+url = "http://www.hair-beauty-landshut.de"
+weight = 8

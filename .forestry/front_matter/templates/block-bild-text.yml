@@ -1,0 +1,33 @@
+---
+label: Block Bild Text
+hide_body: true
+is_partial: true
+fields:
+- type: file
+  name: bild
+  label: Bild
+- type: textarea
+  name: text
+  label: Text
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: field_group
+  name: link-button
+  label: Link-Button
+  fields:
+  - type: text
+    name: link
+    label: Link
+  - type: text
+    name: beschriftung
+    label: Beschriftung
+  - type: select
+    name: icon
+    config:
+      source:
+        type: simple
+      options:
+      - video
+    label: Icon

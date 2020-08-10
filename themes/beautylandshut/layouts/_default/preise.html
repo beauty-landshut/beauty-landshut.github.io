@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="subpage preise">
+  {{ partial "headerSub.html" . }}
+  <div class="ui container">
+    <ul class="kats">
+      {{ range .Params.kategorien }}
+      <li class="kat">
+        <h2>{{.titel}}</h2>
+        <ul class="subkats">
+          {{ range .unterkategorien }}
+          <li>
+            {{ with .bezeichnung}}
+            <h3>{{.}}</h3>
+            {{end}}
+            <ul class="preise">
+              {{ range .preise }}
+              <li class="preis">
+                <div class="bez">{{.bezeichnung}}</div>
+                <div class="p">{{.preis}}</div>
+              </li>
+              {{end}}
+            </ul>
+          </li>
+          {{end}}
+        </ul>
+      </li>
+      {{end}}
+    </ul>
+  </div>
+</div>
+{{end}}

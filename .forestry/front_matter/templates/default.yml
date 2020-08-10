@@ -1,0 +1,27 @@
+---
+label: default
+hide_body: false
+is_partial: false
+fields:
+- type: include
+  template: header-sub
+  label: Header
+  name: header
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: false
+- type: text
+  name: seo_description
+  label: SEO Description
+pages:
+- content/datenschutz.md
+- content/impressum.md
+- content/haftungsausschluss.md
+- content/hairs.md

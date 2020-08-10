@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="subpage">
+  {{ partial "headerSub.html" . }}
+  <div class="teaseroben ui container">
+    <div class="three column stackable ui grid">
+      {{ range .Params.teaser_oben }} {{ partial "blockImageTitleContent.html" . }} {{end}}
+    </div>
+  </div>
+  <div class="galslogan">
+    {{.Params.slogan | safeHTML}}
+  </div>
+  {{ partial "imgGal.html" .Params.bilder }}
+</div>
+{{end}}

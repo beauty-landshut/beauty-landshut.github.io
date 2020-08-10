@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div id="home" style="background:url({{partial "imgUrl" (dict "img" .Params.hintergrund "params" "c_scale,f_auto,w_2500" )}}) center center; background-size:cover">
+  <div id="slogan">
+    <h1>{{.Title}}</h1>
+    <h2>{{.Params.untertitel}}</h2>
+  </div>
+  <div id="termin">
+    <div class="content">
+      {{.Params.terminbedingungen_text | safeHTML}}
+    </div>
+    <div class="blbutton" data-target="termin">
+      {{.Params.terminbedingungen_button | safeHTML}}
+    </div>
+  </div>
+</div>
+{{ end }}

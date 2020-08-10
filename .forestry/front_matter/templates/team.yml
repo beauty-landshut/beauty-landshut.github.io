@@ -1,0 +1,43 @@
+---
+label: Team
+hide_body: true
+is_partial: false
+fields:
+- type: include
+  name: header
+  label: Header
+  template: header-sub
+- type: field_group_list
+  name: mitarbeiter
+  label: Mitarbeiter
+  fields:
+  - type: file
+    label: Bild
+    name: bild
+  - type: text
+    name: name
+    label: Name
+  - type: textarea
+    name: beschreibung
+    label: Beschreibung
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  config:
+    labelField: name
+- type: textarea
+  name: slogan
+  label: Slogan
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: image_gallery
+  name: zertifikate
+  label: Zertifikate
+- type: text
+  name: seo_description
+  label: SEO Description
+pages:
+- content/team.md

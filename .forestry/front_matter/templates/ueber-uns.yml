@@ -1,0 +1,41 @@
+---
+label: Ueber uns
+hide_body: true
+is_partial: false
+fields:
+- type: include
+  name: header
+  label: Header
+  template: header-sub
+- type: image_gallery
+  name: bilder_links
+  label: Bilder links
+- type: textarea
+  name: content_rechts
+  label: Content rechts
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: textarea
+  name: slogan
+  label: Slogan
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: textarea
+  name: titel_logos
+  label: Titel Logos
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: image_gallery
+  name: logos
+  label: Logos
+- type: text
+  name: seo_description
+  label: SEO Description
+pages:
+- content/ueber-uns.md

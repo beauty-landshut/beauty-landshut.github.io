@@ -1,0 +1,38 @@
+---
+label: Preise
+hide_body: true
+is_partial: false
+fields:
+- type: include
+  name: header
+  label: Header
+  template: header-sub
+- type: field_group_list
+  label: Kategorien
+  name: kategorien
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+  - type: field_group_list
+    name: unterkategorien
+    label: Unterkategorien
+    fields:
+    - type: text
+      name: bezeichnung
+      label: Bezeichnung
+    - type: field_group_list
+      name: preise
+      label: Preise
+      fields:
+      - type: text
+        name: bezeichnung
+        label: Bezeichnung
+      - type: text
+        name: preis
+        label: Preis
+- type: text
+  name: seo_description
+  label: SEO Description
+pages:
+- content/preise.md

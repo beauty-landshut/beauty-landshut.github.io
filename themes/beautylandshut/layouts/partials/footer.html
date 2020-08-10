@@ -1,0 +1,9 @@
+{{ $t := .Site.GetPage "page" "global" "footer.md" }}
+<div class="clearfix"></div>
+<footer class="{{if .IsHome}}home{{end}}">
+  <div class="footermenu">
+    {{ $currentPage := . }} {{ range .Site.Menus.footer }}
+    <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+    {{ end }}
+  </div>
+</footer>

@@ -1,0 +1,14 @@
+<div class="blockImageContentW">
+  <div class="ui container blockImageContent">
+    <div class="ui grid stackable">
+      <div class="six wide column">
+        <div class="imgw">
+          <img class="ui fluid image" src="{{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_600" )}}">
+        </div>
+      </div>
+      <div class="ten wide column">
+        {{.text | safeHTML}}
+      </div>
+    </div>
+  </div>
+</div>
