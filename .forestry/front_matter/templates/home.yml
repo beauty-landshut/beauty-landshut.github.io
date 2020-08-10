@@ -1,7 +1,6 @@
 ---
 label: home
 hide_body: true
-is_partial: false
 fields:
 - type: file
   name: hintergrund

@@ -1,7 +1,6 @@
 ---
 label: default
 hide_body: false
-is_partial: false
 fields:
 - type: include
   template: header-sub
@@ -22,6 +21,6 @@ fields:
   label: SEO Description
 pages:
 - content/datenschutz.md
-- content/impressum.md
 - content/haftungsausschluss.md
 - content/hairs.md
+- content/impressum.md

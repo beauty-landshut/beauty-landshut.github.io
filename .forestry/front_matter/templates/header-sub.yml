@@ -1,7 +1,6 @@
 ---
 label: Header Sub
 hide_body: false
-is_partial: true
 fields:
 - type: file
   name: bild_header

@@ -1,7 +1,6 @@
 ---
 label: Sugaring
 hide_body: true
-is_partial: false
 fields:
 - type: include
   name: header
@@ -38,5 +37,5 @@ fields:
   name: seo_description
   label: SEO Description
 pages:
-- content/sugaring.md
 - content/fuesse.md
+- content/sugaring.md
