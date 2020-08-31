@@ -20,7 +20,7 @@ Altdorferstrasse 1<br/>
 
 Tel: 0 871 / 96 61 09 11
 
-Mail  lechner.vanessa@yahoo.de<br/>
+Mail  lechner.vanessa@yahoo.de<br/><br/>
 Web beauty-landshut.de
 
 Umsatzsteuer-Identifikationsnummer gemäß §27 a <br/>Umsatzsteuergesetz:
