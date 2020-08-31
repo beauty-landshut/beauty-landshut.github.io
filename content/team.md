@@ -12,7 +12,7 @@ zertifikate = ["/uploads/2018/07/26/3300.jpg", "/uploads/2018/07/26/3200.jpg", "
 [menu.main]
 weight = 1
 [[mitarbeiter]]
-beschreibung = "<p>Nageldesignerin / Inhaberin</p><p>Mein Name ist Vanessa Gründl und ich bin die Inhaberin unserer kleinen Wellness Oase, die Ihnen ein Lächeln ins Gesicht zaubert. Seit mehr als 10 Jahren beschäftige ich mich mit allem was Frauen und Männer schöner macht.</p><p>Jeden Tag mit Eifer, Leidenschaft und Hingabe.</p>"
+beschreibung = "<p>Nageldesignerin / Inhaberin</p><p>Mein Name ist Vanessa Gründl (geb. Lechner) und ich bin die Inhaberin unserer kleinen Wellness Oase, die Ihnen ein Lächeln ins Gesicht zaubert. Seit mehr als 10 Jahren beschäftige ich mich mit allem was Frauen und Männer schöner macht.</p><p>Jeden Tag mit Eifer, Leidenschaft und Hingabe.</p>"
 bild = "/uploads/2018/07/21/vanessa_neu.png"
 name = "Vanessa"
 [[mitarbeiter]]
