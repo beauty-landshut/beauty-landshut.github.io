@@ -12,9 +12,9 @@ weight = 2
 +++
 **Nails & Beauty**
 
-Inhaberin von Nägel und Fußpflege Studio<br/>
-Vanessa Lechner<br/>
-Altdorferstrasse 1<br/>
+Inhaberin von Nägel und Fußpflege Studio<br/>   
+Vanessa Gründl<br/>   
+Altdorferstrasse 1<br/>   
 84032 Landshut
 
 Tel: 0 871 / 96 61 09 11
@@ -27,8 +27,7 @@ DE 229 956 199
 
 Aufsichtsbehörde: Landratsamt Landshut
 
-Inhaberin und inhaltlich verwantwortlich:<br/>
-Vanessa Lechner
+Inhaberin und inhaltlich verwantwortlich:<br/> Vanessa Gründl
 
 Design / Konzept  
 [elvira.beck | design](https://elvirabeck-design.de)
