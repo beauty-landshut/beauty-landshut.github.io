@@ -28,7 +28,7 @@ DE 229 956 199
 
 Aufsichtsbehörde: Landratsamt Landshut
 
-Inhaberin und inhaltlich verwantwortlich:<br/> Rainer Gründl
+Inhaber und inhaltlich verantwortlich:<br/> Rainer Gründl
 
 Design / Konzept  
 [elvira.beck | design](https://elvirabeck-design.de)
