@@ -83,6 +83,7 @@ preis = "15,00€"
 [[kategorien]]
 titel = "Nägel / Hände"
 [[kategorien.unterkategorien]]
+bezeichnung = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Neumodellage French"
 preis = "90,00€"
@@ -113,6 +114,7 @@ preis = "45,00€"
 [[kategorien]]
 titel = "Füße"
 [[kategorien.unterkategorien]]
+bezeichnung = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Fußnägel in French oder Farbe"
 preis = "28,00€"
@@ -128,12 +130,13 @@ preis = "48,00€"
 [[kategorien]]
 titel = "Sugaring"
 [[kategorien.unterkategorien]]
+bezeichnung = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Oberschenkel"
-preis = "32,50€"
+preis = "ab 32,50€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Beine bis Knie"
-preis = "40,00€"
+preis = "ab 40,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Beine komplett"
 preis = "60,00€"
@@ -176,6 +179,7 @@ preis = "10,00€"
 [[kategorien]]
 titel = "Wellness"
 [[kategorien.unterkategorien]]
+bezeichnung = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Klassische Entspannungsmassage 30 min"
 preis = "39,00€"
@@ -191,9 +195,6 @@ preis = "44,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Fußreflexzonenmassage 45 Min"
 preis = "48,00€"
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Kosmetische Gesichtsbehandlung incl. Tages-Make-Up 90 Min"
-preis = "114,00€"
 
 +++
 30,50€10,00€
