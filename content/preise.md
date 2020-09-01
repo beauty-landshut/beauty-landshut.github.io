@@ -151,16 +151,16 @@ bezeichnung = "Intim (Komplettbehandlung)"
 preis = "ab 65,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Achseln"
-preis = "26,50€"
+preis = "ab 26,50€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Arme bis Ellenbogen"
-preis = "30,50€"
+preis = "ab 30,50€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Oberarme"
-preis = "20,00€"
+preis = "ab 20,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Bauch"
-preis = "35,00€"
+preis = "ab 35,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Rücken"
 preis = "45,00€"
