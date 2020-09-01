@@ -172,10 +172,10 @@ bezeichnung = "Gesicht"
 preis = "ab 45,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Hände / Zehen / Po"
-preis = "je 10,00€"
+preis = "je ab 10,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "einzelne Gesichtspartien"
-preis = "10,00€"
+preis = "ab 10,00€"
 [[kategorien]]
 titel = "Wellness"
 [[kategorien.unterkategorien]]
