@@ -125,7 +125,7 @@ titel = "Füße"
 [[kategorien.unterkategorien]]
 bezeichnung = ""
 [[kategorien.unterkategorien.preise]]
-bezeichnung = "Fußnägel in French oder Farbe"
+bezeichnung = "Fußnägel mit French oder Farbe"
 preis = "28,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Fußpflege"
