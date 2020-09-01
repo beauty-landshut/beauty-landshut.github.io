@@ -163,13 +163,13 @@ bezeichnung = "Bauch"
 preis = "ab 35,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Rücken"
-preis = "45,00€"
+preis = "ab 45,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Brust"
-preis = "35,00€"
+preis = "ab 35,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Gesicht"
-preis = "45,00€"
+preis = "ab 45,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Hände / Zehen / Po"
 preis = "je 10,00€"
