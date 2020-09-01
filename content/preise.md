@@ -73,7 +73,7 @@ bezeichnung = "Wimpernlifting + kl. Maniküre + Handmassage  (mit Färben)"
 preis = "75,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Augenbrauen zupfen"
-preis = "8,00€"
+preis = "ab 8,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Augenbrauen färben"
 preis = "8,00€"
