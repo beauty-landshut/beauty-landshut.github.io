@@ -30,6 +30,9 @@ preis = "80,00€"
 [[kategorien.unterkategorien]]
 bezeichnung = "Wimpernverlängerung HD Technik"
 [[kategorien.unterkategorien.preise]]
+bezeichnung = "Augenbrauen formen"
+preis = "ab 15,00 €"
+[[kategorien.unterkategorien.preise]]
 bezeichnung = "HD Volumen Wimpern Erstbesatz"
 preis = "190,00€"
 [[kategorien.unterkategorien.preise]]
@@ -72,6 +75,9 @@ preis = "70,00€"
 bezeichnung = "Wimpernlifting + kl. Maniküre + Handmassage  (mit Färben)"
 preis = "75,00€"
 [[kategorien.unterkategorien.preise]]
+bezeichnung = "Wimpern färben"
+preis = "15,00€"
+[[kategorien.unterkategorien.preise]]
 bezeichnung = "Augenbrauen zupfen"
 preis = "ab 8,00€"
 [[kategorien.unterkategorien.preise]]
@@ -83,9 +89,6 @@ preis = "120€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Augenbrauenlifting"
 preis = "55€"
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Wimpern färben"
-preis = "15,00€"
 [[kategorien]]
 titel = "Nägel / Hände"
 [[kategorien.unterkategorien]]
