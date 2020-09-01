@@ -136,6 +136,9 @@ preis = "55,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Fußreflexzonen Massage 45min"
 preis = "48,00€"
+[[kategorien.unterkategorien.preise]]
+bezeichnung = "Rhagaden, Hühneraugen, Extra Hornhaut"
+preis = "nach Aufwand"
 [[kategorien]]
 titel = "Sugaring"
 [[kategorien.unterkategorien]]
