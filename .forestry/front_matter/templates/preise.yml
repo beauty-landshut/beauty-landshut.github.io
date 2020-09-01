@@ -30,6 +30,15 @@ fields:
       - type: text
         name: preis
         label: Preis
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Content
 - type: text
   name: seo_description
   label: SEO Description
