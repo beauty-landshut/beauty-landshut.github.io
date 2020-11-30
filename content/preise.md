@@ -90,6 +90,11 @@ preis = "120,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Augenbrauenlifting"
 preis = "55,00€"
+[[kategorien.unterkategorien]]
+bezeichnung = "Styling Wimpern / Augenbrauen"
+[[kategorien.unterkategorien.preise]]
+bezeichnung = "Wimpernlifting (ohne Färben)"
+preis = "55,00€"
 [[kategorien]]
 titel = "Nägel / Hände"
 [[kategorien.unterkategorien]]
