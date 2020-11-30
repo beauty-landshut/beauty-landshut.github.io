@@ -3,7 +3,7 @@ bild_header = "/uploads/2018/07/21/NEU_Head_team_about_contact_Preise.jpg"
 date = "2018-07-10T22:18:53+02:00"
 layout = "preise"
 seo_description = ""
-text = "<p>Gesichtsbehandlungen</p><p><a href=\"https://beauty-landshut.de/uploads/2020/08/31/environ_vanessa_neu.pdf\" title=\"behandlung\"><img src=\"/uploads/2020/08/11/environ_menue.jpg\" title=\"environ\"></a></p>"
+text = "<p></p><p><a href=\"https://beauty-landshut.de/uploads/2020/08/31/environ_vanessa_neu.pdf\" title=\"behandlung\"><img src=\"/uploads/2020/08/11/environ_menue.jpg\" title=\"environ\"></a></p>"
 titel_header = "Preise"
 title = "Preise"
 untertitel_header = ""
@@ -213,6 +213,13 @@ preis = "44,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Fußreflexzonenmassage 45 Min"
 preis = "48,00€"
+[[kategorien]]
+titel = "Gesichtsbehandlungen"
+[[kategorien.unterkategorien]]
+bezeichnung = ""
+[[kategorien.unterkategorien.preise]]
+bezeichnung = ""
+preis = ""
 
 +++
 30,50€10,00€
