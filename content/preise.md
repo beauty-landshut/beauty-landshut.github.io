@@ -146,7 +146,7 @@ titel = "Sugaring"
 bezeichnung = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Oberschenkel"
-preis = "ab 32,50€"
+preis = "ab 40,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Beine bis Knie"
 preis = "ab 40,00€"
