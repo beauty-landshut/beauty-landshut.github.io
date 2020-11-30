@@ -25,7 +25,7 @@ bild = "/uploads/2020/11/30/olga.jpeg"
 name = "Olga"
 [[mitarbeiter]]
 beschreibung = ""
-bild = "/uploads/2020/11/30/natalia.jpeg"
+bild = "/uploads/2020/11/30/natalia.jpg"
 name = "Natalia"
 
 +++
