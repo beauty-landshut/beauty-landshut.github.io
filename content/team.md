@@ -17,7 +17,7 @@ bild = "/uploads/2020/11/30/vanessa.jpg"
 name = "Vanessa"
 [[mitarbeiter]]
 beschreibung = "<p>Nageldesignerin</p><p>Griasdeich, ich bin die Petra, bin 30 Jahre jung! Voller Eifer habe ich im November 2017 meine Ausbildung zur Nageldesignerin gemacht! </p><p>Des weiteren kümmere ich mich auch um einen strahlenden Augenaufschlag durch Wimpernliftings oder Wimpernverlängerungen! </p><p>Mit großer Freude verschaffe ich jeder Kundin die Erfüllung Ihrer persönlichen Wünsche.</p>"
-bild = "/uploads/2020/11/30/petra.jpeg"
+bild = "/uploads/2020/11/30/petra.jpg"
 name = "Petra"
 [[mitarbeiter]]
 beschreibung = "<p>Kosmetikerin</p><p>Ich heiße Olga und bin seit 2011 staatlich geprüfte Kosmetikerin und Visagistin. Gerne verwöhne ich Sie mit einer individuellen Gesichtsbehandlung und einem typgerechten Make-Up. Ebenso spezialisiere ich mich auf Fußpflege, Sugaring, Wimpernlifting und schön gezupfte Augenbrauen. Lassen Sie Ihren Alltagsstress bei einer entspannenden Massage hinter sich.  Ich freue mich, Sie bei meinen Behandlungen begrüßen dürfen.</p>"
