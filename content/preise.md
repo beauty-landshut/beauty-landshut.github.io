@@ -29,6 +29,23 @@ preis = "70,00€"
 bezeichnung = "Wimpern Refill 5 Wochen"
 preis = "80,00€"
 [[kategorien.unterkategorien]]
+bezeichnung = "Wimpernverlängerung HD Technik"
+[[kategorien.unterkategorien.preise]]
+bezeichnung = "HD Volumen Wimpern Erstbesatz"
+preis = "190,00€"
+[[kategorien.unterkategorien.preise]]
+bezeichnung = "Wimpern Refill 2 Wochen"
+preis = "60,00€"
+[[kategorien.unterkategorien.preise]]
+bezeichnung = "Wimpern Refill 3 Wochen"
+preis = "75,00€"
+[[kategorien.unterkategorien.preise]]
+bezeichnung = "Wimpern Refill 4 Wochen"
+preis = "85,00€"
+[[kategorien.unterkategorien.preise]]
+bezeichnung = "Wimpern Refill 5 Wochen"
+preis = "95,00€"
+[[kategorien.unterkategorien]]
 bezeichnung = "Styling Wimpern / Augenbrauen"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Wimpernlifting (ohne Färben)"
@@ -75,23 +92,6 @@ preis = "120,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Augenbrauenlifting"
 preis = "55,00€"
-[[kategorien.unterkategorien]]
-bezeichnung = "Wimpernverlängerung HD Technik"
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "HD Volumen Wimpern Erstbesatz"
-preis = "190,00€"
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Wimpern Refill 2 Wochen"
-preis = "60,00€"
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Wimpern Refill 3 Wochen"
-preis = "75,00€"
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Wimpern Refill 4 Wochen"
-preis = "85,00€"
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Wimpern Refill 5 Wochen"
-preis = "95,00€"
 [[kategorien]]
 titel = "Nägel / Hände"
 [[kategorien.unterkategorien]]
