@@ -147,6 +147,9 @@ titel = "Sugaring"
 [[kategorien.unterkategorien]]
 bezeichnung = ""
 [[kategorien.unterkategorien.preise]]
+bezeichnung = "Die Preise richten sich je nach Aufwand und Materialverbrauch"
+preis = ""
+[[kategorien.unterkategorien.preise]]
 bezeichnung = "Oberschenkel"
 preis = "ab 40,00€"
 [[kategorien.unterkategorien.preise]]
@@ -191,13 +194,6 @@ preis = "je ab 10,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "einzelne Gesichtspartien"
 preis = "ab 10,00€"
-[[kategorien]]
-titel = ""
-[[kategorien.unterkategorien]]
-bezeichnung = ""
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Die Preise richten sich je nach Aufwand und Materialverbrauch"
-preis = ""
 [[kategorien]]
 titel = "Wellness"
 [[kategorien.unterkategorien]]
