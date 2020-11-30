@@ -13,7 +13,7 @@ zertifikate = ["/uploads/2018/07/26/3300.jpg", "/uploads/2018/07/26/3200.jpg", "
 weight = 1
 [[mitarbeiter]]
 beschreibung = "<p>Nageldesignerin / Geschäftsführerin</p><p>Mein Name ist Vanessa Gründl (geb. Lechner) und ich bin die Inhaberin unserer kleinen Wellness Oase, die Ihnen ein Lächeln ins Gesicht zaubert. Seit mehr als 10 Jahren beschäftige ich mich mit allem was Frauen und Männer schöner macht.</p><p>Jeden Tag mit Eifer, Leidenschaft und Hingabe.</p>"
-bild = "/uploads/2020/11/30/vanessa.jpeg"
+bild = "/uploads/2020/11/30/vanessa.jpg"
 name = "Vanessa"
 [[mitarbeiter]]
 beschreibung = "<p>Nageldesignerin</p><p>Griasdeich, ich bin die Petra, bin 30 Jahre jung! Voller Eifer habe ich im November 2017 meine Ausbildung zur Nageldesignerin gemacht! </p><p>Des weiteren kümmere ich mich auch um einen strahlenden Augenaufschlag durch Wimpernliftings oder Wimpernverlängerungen! </p><p>Mit großer Freude verschaffe ich jeder Kundin die Erfüllung Ihrer persönlichen Wünsche.</p>"
@@ -24,7 +24,7 @@ beschreibung = "<p>Kosmetikerin</p><p>Ich heiße Olga und bin seit 2011 staatlic
 bild = "/uploads/2020/11/30/olga.jpeg"
 name = "Olga"
 [[mitarbeiter]]
-beschreibung = ""
+beschreibung = "<p>Kosmetikerin</p>"
 bild = "/uploads/2020/11/30/natalia.jpg"
 name = "Natalia"
 
