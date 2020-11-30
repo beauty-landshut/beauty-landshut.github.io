@@ -21,7 +21,7 @@ bild = "/uploads/2020/11/30/petra.jpeg"
 name = "Petra"
 [[mitarbeiter]]
 beschreibung = "<p>Kosmetikerin</p><p>Ich heiße Olga und bin seit 2011 staatlich geprüfte Kosmetikerin und Visagistin. Gerne verwöhne ich Sie mit einer individuellen Gesichtsbehandlung und einem typgerechten Make-Up. Ebenso spezialisiere ich mich auf Fußpflege, Sugaring, Wimpernlifting und schön gezupfte Augenbrauen. Lassen Sie Ihren Alltagsstress bei einer entspannenden Massage hinter sich.  Ich freue mich, Sie bei meinen Behandlungen begrüßen dürfen.</p>"
-bild = "/uploads/2018/07/21/olga_neu.jpg"
+bild = "/uploads/2020/11/30/olga.jpeg"
 name = "Olga"
 
 +++
