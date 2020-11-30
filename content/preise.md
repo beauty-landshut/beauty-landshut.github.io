@@ -210,6 +210,13 @@ preis = "44,00€"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Fußreflexzonenmassage 45 Min"
 preis = "48,00€"
+[[kategorien]]
+titel = ""
+[[kategorien.unterkategorien]]
+bezeichnung = ""
+[[kategorien.unterkategorien.preise]]
+bezeichnung = "Die Preise richten sich je nach Aufwand und Materialverbrauch"
+preis = ""
 
 +++
 30,50€10,00€
