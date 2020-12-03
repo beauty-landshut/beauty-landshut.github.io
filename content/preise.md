@@ -246,6 +246,10 @@ bezeichnung = "einzelne Gesichtspartien"
 preis = "ab 10,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
+bezeichnung = ""
+preis = ""
+preise = ""
+[[kategorien.unterkategorien.preise]]
 bezeichnung = "Die Preise richten sich je nach Aufwand und Materialverbrauch"
 preis = ""
 preise = ""
