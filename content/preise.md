@@ -246,7 +246,7 @@ bezeichnung = "einzelne Gesichtspartien"
 preis = "ab 10,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
-bezeichnung = ""
+bezeichnung = "__________________"
 preis = ""
 preise = ""
 [[kategorien.unterkategorien.preise]]
