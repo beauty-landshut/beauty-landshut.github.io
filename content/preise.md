@@ -254,30 +254,6 @@ bezeichnung = "Die Preise richten sich je nach Aufwand und Materialverbrauch"
 preis = ""
 preise = ""
 [[kategorien]]
-titel = "Wellness"
-[[kategorien.unterkategorien]]
-bezeichnung = ""
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Klassische Entspannungsmassage 30 min"
-preis = "39,00€"
-preise = ""
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Klassische Entspannungsmassage 60 min"
-preis = "69,00€"
-preise = ""
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Schokomassage 30 Min"
-preis = "44,00€"
-preise = ""
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Honigmassage (Detox,Entgiftung) 30min"
-preis = "44,00€"
-preise = ""
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Fußreflexzonenmassage 45 Min"
-preis = "48,00€"
-preise = ""
-[[kategorien]]
 titel = "Gesichtsbehandlungen"
 [[kategorien.unterkategorien]]
 bezeichnung = ""
