@@ -1,7 +1,7 @@
 +++
 bild_header = "/uploads/2018/07/21/Wimpern_head-Kopie.jpg"
 bild_links = "/uploads/2018/07/24/wimpern_neu_titel.jpg"
-bilder = ["/uploads/2018/08/01/IMG-20180711-WA0016-01.jpeg", "/uploads/2018/08/01/IMG-20180711-WA0022.jpg", "/uploads/2018/08/01/IMG-20180709-WA0014.jpg", "/uploads/2018/08/01/IMG-20180709-WA0014-01.jpeg", "/uploads/2018/08/01/IMG-20180709-WA0012.jpg", "/uploads/2018/08/01/IMG-20180709-WA0003.jpg", "/uploads/2018/08/01/IMG-20180623-WA0005-01.jpeg", "/uploads/2018/08/01/IMG_20180711_214543_963.jpg", "/uploads/2018/07/21/157.jpg", "/uploads/2018/07/21/156.jpg", "/uploads/2018/07/21/155.jpg", "/uploads/2018/07/21/154,2.jpg", "/uploads/2018/07/21/154,1.jpg", "/uploads/2018/07/21/153.jpg", "/uploads/Sugaring/97.jpg"]
+bilder = ["/uploads/2021/10/21/wimpernlifting.jpg", "/uploads/2021/10/21/wimpernlifting1.jpg", "/uploads/2021/10/21/wimpernlifting2.jpg", "/uploads/2021/10/21/wimpernlifting3.jpg", "/uploads/2018/08/01/IMG-20180711-WA0016-01.jpeg", "/uploads/2018/08/01/IMG-20180711-WA0022.jpg", "/uploads/2018/08/01/IMG-20180709-WA0014.jpg", "/uploads/2018/08/01/IMG-20180709-WA0014-01.jpeg", "/uploads/2018/08/01/IMG-20180709-WA0012.jpg", "/uploads/2018/08/01/IMG-20180709-WA0003.jpg", "/uploads/2018/08/01/IMG-20180623-WA0005-01.jpeg", "/uploads/2018/08/01/IMG_20180711_214543_963.jpg", "/uploads/2018/07/21/157.jpg", "/uploads/2018/07/21/156.jpg", "/uploads/2018/07/21/155.jpg", "/uploads/2018/07/21/154,2.jpg", "/uploads/2018/07/21/154,1.jpg", "/uploads/2018/07/21/153.jpg", "/uploads/Sugaring/97.jpg"]
 content = ""
 date = "2018-07-10T22:17:13+02:00"
 layout = "wimpern"
