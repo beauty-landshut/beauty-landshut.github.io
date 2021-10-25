@@ -12,7 +12,7 @@ titel_header = "Wimpern / Augenbrauen"
 title = "Wimpernlifting"
 untertitel_header = "Wimpernlifting / Augenbrauenlifting (Browlift)"
 [menu.main]
-name = "Wimpern/Augenbrauen Lifting"
+name = "Wimpern/Augenbrauen-Lifting / Browlift"
 weight = 5
 
 +++
