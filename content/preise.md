@@ -141,14 +141,6 @@ preise = ""
 bezeichnung = "Fußpflege in French oder Farbe"
 preis = "55,00€"
 preise = ""
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Fußreflexzonen Massage 45min"
-preis = "48,00€"
-preise = ""
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Rhagaden, Hühneraugen, Extra Hornhaut"
-preis = "nach Aufwand"
-preise = ""
 [[kategorien]]
 titel = "Sugaring"
 [[kategorien.unterkategorien]]
