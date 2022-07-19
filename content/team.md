@@ -19,9 +19,5 @@ name = "Vanessa"
 beschreibung = "<p>Nageldesignerin</p><p>Griasdeich, ich bin die Petra, bin 30 Jahre jung! Voller Eifer habe ich im November 2017 meine Ausbildung zur Nageldesignerin gemacht! </p><p>Des weiteren kümmere ich mich auch um einen strahlenden Augenaufschlag durch Wimpernliftings oder Wimpernverlängerungen! </p><p>Mit großer Freude verschaffe ich jeder Kundin die Erfüllung Ihrer persönlichen Wünsche.</p>"
 bild = "/uploads/2020/11/30/petra.jpg"
 name = "Petra"
-[[mitarbeiter]]
-beschreibung = "<p>Kosmetikerin</p>"
-bild = "/uploads/2020/11/30/natalia.jpg"
-name = "Natalia"
 
 +++
