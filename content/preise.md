@@ -125,14 +125,6 @@ preise = ""
 bezeichnung = "SPA Maniküre"
 preis = "25,00€"
 preise = ""
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Professioneller Nagelhärter"
-preis = "35,00€"
-preise = ""
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Professioneller Nagelhärter incl. Maniküre"
-preis = "45,00€"
-preise = ""
 [[kategorien]]
 titel = "Füße"
 [[kategorien.unterkategorien]]
