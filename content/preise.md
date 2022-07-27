@@ -49,11 +49,11 @@ preis = "80,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Wimpern Refill 4 Wochen"
-preis = "85,00€"
+preis = "90,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Wimpern Refill 5 Wochen"
-preis = "95,00€"
+preis = "100,00€"
 preise = ""
 [[kategorien.unterkategorien]]
 bezeichnung = "Styling Wimpern / Augenbrauen"
