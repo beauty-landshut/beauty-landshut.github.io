@@ -70,16 +70,8 @@ bezeichnung = "Wimpern färben"
 preis = "15,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
-bezeichnung = "Wimpernwelle (ohne Färben)"
-preis = "55,00€"
-preise = ""
-[[kategorien.unterkategorien.preise]]
-bezeichnung = "Wimpernwelle (mit Färben)"
-preis = "60,00€"
-preise = ""
-[[kategorien.unterkategorien.preise]]
 bezeichnung = "Augenbrauen zupfen (je nach Aufwand)"
-preis = "ab 8,00€"
+preis = "ab 12,50€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Augenbrauen färben"
