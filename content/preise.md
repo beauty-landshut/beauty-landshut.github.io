@@ -103,7 +103,7 @@ preis = "55,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Fusion"
-preis = "45,00€"
+preis = "50,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Extraverzierungen"
