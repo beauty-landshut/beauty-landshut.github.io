@@ -95,11 +95,11 @@ preis = "95,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Refill"
-preis = "56,00€"
+preis = "60,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Refill natural"
-preis = "50,00€"
+preis = "55,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Fusion"
