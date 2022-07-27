@@ -23,11 +23,11 @@ preis = "50,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Wimpern Refill 3 Wochen"
-preis = "60,00€"
+preis = "65,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Wimpern Refill 4 Wochen"
-preis = "70,00€"
+preis = "75,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Wimpern Refill 5 Wochen"
