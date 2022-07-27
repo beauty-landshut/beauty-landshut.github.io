@@ -59,11 +59,11 @@ preise = ""
 bezeichnung = "Styling Wimpern / Augenbrauen"
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Wimpernlifting (ohne Färben)"
-preis = "55,00€"
+preis = "60,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Wimpernlifting (mit Färben)"
-preis = "60,00€"
+preis = "65,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Wimpern färben"
