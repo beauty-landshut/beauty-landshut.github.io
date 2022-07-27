@@ -151,7 +151,7 @@ preis = "ab 60,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Bikinizone"
-preis = "27,00€"
+preis = "ab 27,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Intim (Teilbehandlung)"
