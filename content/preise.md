@@ -91,7 +91,7 @@ titel = "Nägel / Hände"
 bezeichnung = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Neumodellage French"
-preis = "90,00€"
+preis = "95,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Refill"
