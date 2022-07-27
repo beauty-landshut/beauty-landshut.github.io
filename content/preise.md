@@ -83,7 +83,7 @@ preis = "120,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Augenbrauenlifting"
-preis = "55,00€"
+preis = "60,00€"
 preise = ""
 [[kategorien]]
 titel = "Nägel / Hände"
