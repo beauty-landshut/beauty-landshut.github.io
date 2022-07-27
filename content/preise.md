@@ -75,7 +75,7 @@ preis = "ab 12,50€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Augenbrauen färben"
-preis = "8,00€"
+preis = "15,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Augenbrauenlifting all-in-Packet inkl. Wimpernlifting, Augenbrauen zupfen, färben und laminieren"
