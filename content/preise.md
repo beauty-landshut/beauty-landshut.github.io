@@ -111,11 +111,11 @@ preis = "ab 0,50€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "kleine Maniküre"
-preis = "20,00€"
+preis = "25,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "SPA Maniküre"
-preis = "25,00€"
+preis = "30,00€"
 preise = ""
 [[kategorien]]
 titel = "Füße"
