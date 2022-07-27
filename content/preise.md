@@ -127,11 +127,11 @@ preis = "33,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Fußpflege"
-preis = "37,00€"
+preis = "41,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Fußpflege in French oder Farbe"
-preis = "55,00€"
+preis = "59,00€"
 preise = ""
 [[kategorien]]
 titel = "Sugaring"
