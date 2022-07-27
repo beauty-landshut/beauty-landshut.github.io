@@ -31,7 +31,7 @@ preis = "75,00€"
 preise = ""
 [[kategorien.unterkategorien.preise]]
 bezeichnung = "Wimpern Refill 5 Wochen"
-preis = "80,00€"
+preis = "85,00€"
 preise = ""
 [[kategorien.unterkategorien]]
 bezeichnung = "Wimpernverlängerung HD Technik"
