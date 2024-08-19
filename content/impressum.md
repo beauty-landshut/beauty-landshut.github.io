@@ -18,7 +18,7 @@ Geschäftsführung: Vanessa Gründl<br/>
 Altdorferstrasse 1<br/>  
 84032 Landshut
 
-Tel: 0 871 / 96 61 09 11
+Tel:  0 151 / 290 479 69
 
 Mail  lechner.vanessa@yahoo.de<br/><br/>
 Web beauty-landshut.de
