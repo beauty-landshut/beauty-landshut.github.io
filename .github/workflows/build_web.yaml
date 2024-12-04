@@ -13,7 +13,7 @@ jobs:
       uses: crazy-max/ghaction-hugo@v1
       with:
         version: latest
-        args: --cleanDestinationDir --minify --verbose
+        args: --cleanDestinationDir --minify
     - name: Deploy
       if: success() && github.event_name != 'pull_request'
       uses: crazy-max/ghaction-github-pages@v1
