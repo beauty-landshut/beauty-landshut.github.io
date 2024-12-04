@@ -1,9 +1,9 @@
 +++
 bild_header = "/uploads/2018/07/21/beauty_head.jpg"
 date = "2018-07-10T22:16:09+02:00"
-footertext = "<p>Wir erarbeiten für jeden Kunden individuell einen Pflegeplan. Die Wirkstoffe werden bei jeder Gesichtsbehandlung auf das aktuelle Hautbild angepasst. Zudem bieten wir unterschiedliche Behandlungsmöglichkeiten an, fragen Sie uns auch nach unserem Kurzprogramm.<br>Gerne beraten wir Sie persönlich und stehen Ihnen bei Fragen jederzeit zur Verfügung.</p>"
+footertext = "<p>Gerne beraten wir Sie persönlich und stehen Ihnen bei Fragen jederzeit zur Verfügung.</p>"
 layout = "beauty"
-seo_description = "Advanced Nutrition, Environ, Jane Irreale -  Wir erarbeiten für jeden Kunden individuell einen Pflegeplan. Die Wirkstoffe werden bei jeder Gesichtsbehandlung auf das aktuelle Hautbild angepasst. Zudem bieten wir unterschiedliche Behandlungsmöglichkeiten an, fragen Sie uns auch nach unserem Kurzprogramm.  Gerne beraten wir Sie persönlich und stehen Ihnen bei Fragen jederzeit zur Verfügung."
+seo_description = "Advanced Nutrition, Environ, Jane Irreale -   Wir erarbeiten für jeden Kunden individuell einen Pflegeplan. Die Wirkstoffe werden bei jeder Gesichtsbehandlung auf das aktuelle Hautbild angepasst. Zudem bieten wir unterschiedliche Behandlungsmöglichkeiten an, fragen Sie uns auch nach unserem Kurzprogramm.  Gerne beraten wir Sie persönlich und stehen Ihnen bei Fragen jederzeit zur Verfügung."
 titel_header = "beauty face & body"
 title = "Beauty"
 untertitel_header = "Wellness für Körper und Gesicht"
