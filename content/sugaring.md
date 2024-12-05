@@ -1,7 +1,7 @@
 +++
 bild_header = "/uploads/2018/07/21/NEUSugaring_head.jpg"
 bild_links = "/uploads/Sugaring/Soft-Sugaring-einfach-zum-verlieben1.jpg"
-bilder = ["/uploads/Sugaring/94.jpg", "/uploads/Sugaring/IMG_0362.JPG", "/uploads/Sugaring/97.jpg"]
+bilder = ["/uploads/Sugaring/94.jpg", "/uploads/Sugaring/97.jpg"]
 content = ""
 date = "2018-07-10T22:17:33+02:00"
 layout = "wimpern"
